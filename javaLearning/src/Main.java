@@ -3,6 +3,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("hI");
+        int[] a = {1,2,3};
+        for(int i: a){
+            System.out.println(i);
+        }
     }
 }
